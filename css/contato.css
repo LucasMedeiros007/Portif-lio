@@ -1,0 +1,23 @@
+.contato{
+    background-color: #383838;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 25px 0px;
+    margin: 0px auto;
+    max-width: 1200px;
+    gap: 100px;
+    margin-bottom: 5px;
+}
+
+@media(max-width:1200px){
+    .contato{
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:820px){
+    .contato{
+        grid-template-columns: auto;
+    }
+}

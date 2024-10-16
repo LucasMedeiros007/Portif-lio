@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Fira Sans', Arial, sans-serif;
+    margin: 0;
+    color: #141414;
+    padding: 0;
+    /* background-color: #f7f7f7; */
+}
+
+.none{
+    display: none;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-thumb {
+    width: 0px; 
+}
+
+h1, h2, h3, p{
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.h3Escuro{
+    background-color: #f7f7f7;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.liGrid{
+    display: grid;
+    gap: 8px;
+}
+
+.liGrid-colunas{
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    gap: 0px 15px;
+}
+
+.liEscuro{
+    color: #f7f7f7;
+    font-size: 1.15rem;
+}
+.liEscuro::before{
+    content: "- ";
+}
+
+.liEscuro-ferramenta{
+    font-size: 1.15rem;
+}
+
+.liClaro{
+    font-size: 1.15rem;
+}
+.liClaro::before{
+    content: "- ";
+}
