@@ -10,6 +10,13 @@
     border-radius: 5px 5px 0px 0px;
 }
 
+.introducao img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 .introducao h1{
     font-size: 4.12rem;
     line-height: 1.125;
