@@ -9,6 +9,10 @@ body{
     /* background-color: #f7f7f7; */
 }
 
+body, html{
+    overflow-x: hidden;
+}
+
 .none{
     display: none;
 }
