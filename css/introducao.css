@@ -11,10 +11,8 @@
 }
 
 .introducao img{
-    width: 300px;
-    height: 300px;
+    width: 100%;
     object-fit: cover;
-    border-radius: 50%;
     justify-self: center;
     align-self: center;
 }
@@ -80,12 +78,6 @@
         background-color: #e21;
         left: 0px;
         top: 10px;
-    }
-}
-@media (max-width: 1039px){
-    .introducao img{
-        width: 250px;
-        height: 250px;
     }
 }
 
