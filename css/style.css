@@ -5,3 +5,8 @@
 @import './experiencia.css';
 @import './formacao.css';
 @import './contato.css';
+@import './cores.css';
+
+.h1.dark{
+    color: #f7f7f7;
+}

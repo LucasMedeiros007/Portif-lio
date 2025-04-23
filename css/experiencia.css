@@ -1,9 +1,11 @@
+.exp-bkg{
+    background-color: var(--bkgEscuro);
+}
 .experiencia{
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto auto;
     gap: 60px 100px;
-    background-color: #383838;
     padding: 25px 40px;
     margin: 0px auto;
     max-width: 1200px;
@@ -271,6 +273,11 @@ hr{
     width: 200px;
     z-index: 1;
     border-radius: 5px;
+}
+
+.exp-bkg.light{
+    background-color: #505050;
+    transition: .5s
 }
 
 @media (max-width:900px){

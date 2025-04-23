@@ -4,44 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifólio</title>
-    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <h1>LUCAS FIAES MEDEIROS</h1>
-        <nav>
-            <ul class="header-menu">
-                <li><a href="#experiencia">Experiência</a></li>
-                <li><a href="#formacao">Formação</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+
+        <div class="navegadores">
+            <nav>
+                <ul class="header-menu">
+                    <li><a href="#experiencia">Experiência</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+    
+            <div class="trilho" id="trilho">
+                <div class="indicador"></div>
+            </div>
+        </div>
+        
     </header>
 
-    <main class="introducao">
+    <main class="introducao" id="introducao">
         <img src="./img/perf.png" alt="Imagem do desenvolvedor">
 
         <div>
-            <h1>Estudante<br>Curso Técnico<br>em Informática<br>no <span class="ifms">IFMS</span></h1>
+            <h1 class="h1">Estudante<br>Curso Técnico<br>em Informática<br>no <span class="ifms">IFMS</span></h1>
             <p>- Campo Grande - MS</p>
         </div>
     </main>
 
-    <section class="resumo" aria-label="resumo">
+    <section class="resumo" aria-label="resumo" id="resumo">
         <h2 class="subtituloResumo">RESUMO</h2>
         <div>
-            <p class="resumo-texto">Desenvolvedor <strong class="desenvFull">FrontEnd.</strong><br><br> <strong class="busco">Busco a oportunidade de empresas</strong> para aprofundar meus conhecimentos no desenvolvimento de Websites e resolução de problemas com linguagens de programação.
-            <br><br>Possuo <strong class="ingles">Inglês</strong> avançado<br><br></p>
+            <p class="resumo-texto">Desenvolvedor <strong class="desenvFull">FrontEnd.</strong><br><br>Atualmente trabalho como Freelancer desenvolvendo Websites e busco constantemente conhecimento sobre desenvolvimento de softwares. <br><br> <strong class="busco">Busco a oportunidade de empresas</strong> para aprofundar meus conhecimentos no desenvolvimento de Websites e resolução de problemas com linguagens de programação.
+            <br><br>Possuo <strong class="ingles">Inglês</strong> avançado</p>
         </div>
     </section>
 
-    <section class="experiencia" id="experiencia">
-
-        <h2 class="subtitulo">EXPERIÊNCIA</h2>
+    <section class="exp-bkg" id="experiencia">
+        <div class="experiencia">
+            <h2 class="subtitulo">EXPERIÊNCIA</h2>
 
         <div class="divCentro">
             <h3 class="h3Escuro">Desenvolvedor Freelancer</h3>
@@ -83,33 +91,41 @@
                 <h3>Curso Esmaltação em Gel</h3>
             </div>
         </div>
+        </div>
+        
     </section>
 
-    <section class="formacao" id="formacao">
-        <h2 class="subtitulo">FORMAÇÃO</h2>
+    <section id="formacao" class="form-bkg">
+        <div class="formacao">
+            <h2 class="subtitulo">FORMAÇÃO</h2>
 
-        <ul class="liGrid">
-            <li class="liClaro">6* Semestre do Curso Técnico Integrado em Informática no <span class="ifmsSemBola"><a class="ifmsSemBola" href="https://www.ifms.edu.br/">IFMS</a></span>-CG ;</li>
-
-            <li class="liClaro">Centro de idiomas <span class="wizard"><a class="wizard" href="https://promocoes.wizard.com.br/ganhe-curso-de-ingles-para-negocios/?utm_source=google&utm_medium=cpc&utm_campaign=m_wiz_br_buy_cs_search_wizalways-on_alwayson-as-is-inst_open_na_na_na_br_search-branding-as-is_na_na_na_na_lp-wizon-cursoinglesonline&utm_term=wizard&utm_campaign=%5BWizard+As+Is%5D+Google+%7C+Search+%7C+Help+me+Buy+%7C+Institucional+%7C+CPL&utm_source=adwords&utm_medium=ppc&hsa_acc=3014080109&hsa_cam=11129410292&hsa_grp=104410524370&hsa_ad=704563206238&hsa_src=g&hsa_tgt=kwd-13498616&hsa_kw=wizard&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwv7O0BhDwARIsAC0sjWNCUWayzSOltAGvCxu8riLDoPLN2C-OD1gRwcDN6CQYlm3x8BOS0k4aAv-IEALw_wcB">WIZARD</a></span>-CG.</li>
-        <br>
-    </section>
-
-    <section class="contato" id="contato">
-        <h2 class="subtitulo">CONTATO</h2>
-
-        <div>
             <ul class="liGrid">
-                <li class="liEscuro">Email: lm3355899@gmail.com</strong></li>
+                <li class="liClaro">6* Semestre do Curso Técnico Integrado em Informática no <span class="ifmsSemBola"><a class="ifmsSemBola" href="https://www.ifms.edu.br/">IFMS</a></span>-CG ;</li>
 
-                <li class="liEscuro">Email alternativo: lucas.medeiros2@estudante.ifms.edu.br</strong></li>
-
-                <li class="liEscuro">GitHub: <a class="github" href="http://github.com/LucasMedeiros007">github.com/LucasMedeiros007</a></li>
-
-            </ul>
+                <li class="liClaro">Centro de idiomas <span class="wizard"><a class="wizard" href="https://promocoes.wizard.com.br/ganhe-curso-de-ingles-para-negocios/?utm_source=google&utm_medium=cpc&utm_campaign=m_wiz_br_buy_cs_search_wizalways-on_alwayson-as-is-inst_open_na_na_na_br_search-branding-as-is_na_na_na_na_lp-wizon-cursoinglesonline&utm_term=wizard&utm_campaign=%5BWizard+As+Is%5D+Google+%7C+Search+%7C+Help+me+Buy+%7C+Institucional+%7C+CPL&utm_source=adwords&utm_medium=ppc&hsa_acc=3014080109&hsa_cam=11129410292&hsa_grp=104410524370&hsa_ad=704563206238&hsa_src=g&hsa_tgt=kwd-13498616&hsa_kw=wizard&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwv7O0BhDwARIsAC0sjWNCUWayzSOltAGvCxu8riLDoPLN2C-OD1gRwcDN6CQYlm3x8BOS0k4aAv-IEALw_wcB">WIZARD</a></span>-CG.</li>
+            <br>
         </div>
     </section>
 
+    <section class="contato-bkg" id="contato">
+        <div class="contato">
+            <h2 class="subtitulo">CONTATO</h2>
+
+            <div>
+                <ul class="liGrid">
+                    <li class="liEscuro">Email: lm3355899@gmail.com</strong></li>
+
+                    <li class="liEscuro">Email alternativo: lucas.medeiros2@estudante.ifms.edu.br</strong></li>
+
+                    <li class="liEscuro">GitHub: <a class="github" href="http://github.com/LucasMedeiros007">github.com/LucasMedeiros007</a></li>
+
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="js/temaLightDark.js"></script>
     <script src="js/rolagem.js"></script>
 </body>
 </html>

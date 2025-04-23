@@ -1,5 +1,8 @@
+.contato-bkg{
+    background-color: var(--bkgEscuro);
+}
+
 .contato{
-    background-color: #383838;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -7,11 +10,15 @@
     margin: 0px auto;
     max-width: 1200px;
     gap: 100px;
-    margin-bottom: 5px;
 }
 
 .liGrid{
     display: grid;
+}
+
+.contato-bkg.light{
+    background-color: #505050;
+    transition: .5s
 }
 
 @media(max-width:1200px){

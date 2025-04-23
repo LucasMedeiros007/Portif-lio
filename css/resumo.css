@@ -3,9 +3,7 @@
     grid-template-columns: 1fr 2fr;
     gap: 100px;
     max-width: 1200px;
-    margin: 0px auto ;
-    border-top: 80px solid #fff;
-    border-bottom: 80px solid #fff;
+    margin: 60px auto ;
     background-color: #ffffff;
     border-radius: 5px 5px 0px 0px;
 }
@@ -73,6 +71,11 @@
     height: 2px;
     background-color: #348f32;
     bottom: -4px;
+}
+
+.resumo.dark{
+    background-color: #383838;
+    transition: .5s;
 }
 
 @media (max-width:1500px){
