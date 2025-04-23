@@ -59,6 +59,20 @@
     cursor: pointer;
 }
 
+.trilho #lua{
+    position: absolute;
+    left: 36px;
+    top: -1px;
+    z-index: 2;
+}
+
+.trilho #sol{
+    position: absolute;
+    top: -1px;
+    z-index: 2;
+    transform: scale(0.9);
+}
+
 .trilho .indicador{
     width: 22px;
     height: 22px;
@@ -69,6 +83,7 @@
     top: -2px;
     left: -2px;
     transition: .5s;
+    z-index: 3;
 }
 
 .trilho.dark{
