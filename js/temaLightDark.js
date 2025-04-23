@@ -19,6 +19,4 @@ trilho.addEventListener('click', ()=>{
 
     experiencia.classList.toggle('light');
     contato.classList.toggle('light');
-
-    titulo.classList.toggle('dark');
 })

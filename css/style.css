@@ -7,6 +7,14 @@
 @import './contato.css';
 @import './cores.css';
 
-.h1.dark{
+body.dark .header h1, body.dark .header a, body.dark .introducao, body.dark .introducao p, body.dark .resumo p strong, body.dark .resumo, body.dark .formacao{
     color: #f7f7f7;
+}
+
+body.dark .introducao .ifms::before{
+    border: 3px solid #383838;
+}
+
+body.dark .formacao .wizard{
+    color: #226cb5;
 }
