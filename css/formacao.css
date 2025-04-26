@@ -19,6 +19,10 @@
     color: #11365c;
 }
 
+.origamid a{
+    color: white;
+} 
+
 .form-bkg.dark{
     background-color: #383838;
     transition: .5s;
