@@ -229,6 +229,26 @@ hr{
     border-radius: 5px;
 }
 
+.trabalhos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    z-index: 0;
+}
+
+.trabalhos-icones{
+    position: relative;
+}
+
+.trabalhos-icones img{
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+
 .trabalhos h3{
     font-weight: 400;
     font-size: 14px;
@@ -237,7 +257,7 @@ hr{
     border-radius: 5px;
     justify-self: start;
     position: absolute;
-    bottom: 60px;
+    bottom: 20px;
     left: 12px;
     z-index: 3;
     pointer-events: none;
@@ -245,12 +265,6 @@ hr{
 .trabalhos h3 a{
     text-decoration: none;
     color: #383838;
-}
-
-.trabalhos{
-    display: flex;
-    position: relative;
-    z-index: 0;
 }
 
 .link{
@@ -262,17 +276,12 @@ hr{
     top: 0;
     box-shadow: inset 0 -50px 130px rgba(0,0,0,0.9);
     transition: .3s;
+    border-radius: 4px;
 }
 
 .link:hover{
     box-shadow: inset 0 -50px 130px rgba(0,0,0, 0);
     
-}
-.trabalhos img{
-    position: relative;
-    width: 200px;
-    z-index: 1;
-    border-radius: 5px;
 }
 
 .exp-bkg.light{
