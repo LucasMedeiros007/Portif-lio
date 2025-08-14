@@ -18,9 +18,10 @@
 }
 
 .introducao h1{
-    font-size: 4.12rem;
+    font-size: 3.5rem;
     line-height: 1.125;
     position: relative;
+    margin-bottom: 10px;
 }
 
 .introducao h1::before{
@@ -35,22 +36,22 @@
     left: -10px;
 }
 
-.ifms{
+/* .ifms{
     color: #348f32;
     position: relative;
-}
+} */
 
-.ifms::before{
+/* .ifms::before{
     content: "";
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 3px;
+    height: 3px;
     background-color: #e21;
-    border: 3px solid #fff;
-    left: 2px;
-    top: 13px;
+    border: 2px solid #fff;
+    left: -1px;
+    top: 3px;
     border-radius: 50%;
-}
+} */
 
 .introducao p{
     color: #525252;

@@ -21,7 +21,12 @@
 
 .origamid a{
     color: white;
-} 
+}
+
+.ucdb{
+    color: #d00;
+    font-weight: bold;
+}
 
 .form-bkg.dark{
     background-color: #383838;

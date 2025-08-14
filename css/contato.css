@@ -21,6 +21,10 @@
     transition: .5s
 }
 
+.whatsapp{
+    color: #0d0;
+}
+
 @media(max-width:1200px){
     .contato{
         margin-bottom: 0px;
