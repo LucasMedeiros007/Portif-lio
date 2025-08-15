@@ -80,3 +80,8 @@ img{
 .liClaro::before{
     content: "- ";
 }
+
+.subtitulo, .subtitulo2{
+    text-align: start;
+}
+

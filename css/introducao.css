@@ -76,7 +76,7 @@
         background-image: url('../img/icone-introducao-menor.png');
     }
 
-    .ifms::before{
+    /* .ifms::before{
         content: "";
         position: absolute;
         width: 8px;
@@ -84,7 +84,7 @@
         background-color: #e21;
         left: 0px;
         top: 10px;
-    }
+    } */
 }
 
 @media (max-width: 800px){
@@ -106,13 +106,13 @@
         background-image: url('../img/icone-introducao-menorsinho.png');
     }
 
-    .ifms::before{
+    /* .ifms::before{
         width: 4px;
         height: 4px;
         left: 0px;
         top: 5px;
         border: 2px solid #fff;
-    }
+    } */
 
     .introducao img{
         width: 250px;
@@ -130,9 +130,10 @@
     }
     .introducao h1{
         font-size: 3rem;
+        text-align: center;
     }
 
-    .ifms::before{
+    /* .ifms::before{
         content: "";
         position: absolute;
         width: 8px;
@@ -141,6 +142,24 @@
         border: 3px solid #fff;
         left: 0px;
         top: 10px;
+    } */
+}
+
+@media (max-width:573px){
+    .introducao .h1{
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width:519px){
+    .introducao .h1{
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width:465px){
+    .introducao .h1{
+        font-size: 2rem;
     }
 }
 
@@ -149,10 +168,10 @@
         font-size: 2.125rem;
     }
 
-    .ifms::before{
+    /* .ifms::before{
         width: 5px;
         height: 4px;
         left: 0px;
         top: 6px;
-    }
+    } */
 }
