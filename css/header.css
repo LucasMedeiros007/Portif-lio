@@ -134,6 +134,12 @@ body.dark{
     }
 }
 
+@media (max-width:375px){
+    header h1{
+        font-size: 1.7rem;
+    }
+}
+
 @media (max-width: 370px){
     .header-menu{
         gap: 5px;
@@ -152,6 +158,12 @@ body.dark{
     .header-menu a{
         padding: 5px 8px;
         font-size: 1rem;
+    }
+}
+
+@media (max-width:375px){
+    header h1{
+        font-size: 1.5rem;
     }
 }
 

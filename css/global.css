@@ -17,12 +17,23 @@ body, html{
     display: none;
 }
 
-body::-webkit-scrollbar {
-    width: 0px;               /* width of the entire scrollbar */
+/* body::-webkit-scrollbar {
+    width: 0px;               
 }
 body::-webkit-scrollbar-thumb {
     width: 0px; 
+} */
+
+/* .trabalhos::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
 }
+.trabalhos::-webkit-scrollbar {
+    width: 12px;
+    background: #F4F4F4;
+}
+.trabalhos::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+} */
 
 h1, h2, h3, p{
     margin: 0;

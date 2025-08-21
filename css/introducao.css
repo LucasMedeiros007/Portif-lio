@@ -87,6 +87,12 @@
     } */
 }
 
+@media (max-width:820px){
+    .introducao{
+        padding: 0 16px;
+    }
+}
+
 @media (max-width: 800px){
     .introducao{
         grid-template-columns: 1fr 1fr;
@@ -160,6 +166,12 @@
 @media (max-width:465px){
     .introducao .h1{
         font-size: 2rem;
+    }
+}
+
+@media (max-width:387px){
+    .introducao .h1{
+        font-size: 1.7rem;
     }
 }
 
