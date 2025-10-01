@@ -17,11 +17,11 @@ trilho.addEventListener("click", () => {
   body.classList.toggle("dark");
   header.classList.toggle("dark");
   resumo.classList.toggle("dark");
-  introducao.classList.toggle("dark");
   formacao.classList.toggle("dark");
 
   experiencia.classList.toggle("light");
   contato.classList.toggle("light");
+  introducao.classList.toggle("light");
 });
 
 if (tema) {
@@ -29,9 +29,9 @@ if (tema) {
   body.classList.toggle("dark");
   header.classList.toggle("dark");
   resumo.classList.toggle("dark");
-  introducao.classList.toggle("dark");
   formacao.classList.toggle("dark");
 
   experiencia.classList.toggle("light");
   contato.classList.toggle("light");
+  introducao.classList.toggle("light");
 }

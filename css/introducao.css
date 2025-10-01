@@ -1,12 +1,11 @@
 .introducao {
   max-width: 1200px;
-  padding: 40px 20px 0 20px;
+  padding: 40px 20px 40px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 100px;
   align-items: center;
-  background-color: #ffffff;
   border-radius: 5px 5px 0px 0px;
 }
 
@@ -24,7 +23,7 @@
   margin-bottom: 10px;
 }
 
-.introducao h1::before {
+/* .introducao h1::before {
   content: "";
   width: 120px;
   height: 120px;
@@ -34,7 +33,7 @@
   z-index: -1;
   top: -10px;
   left: -10px;
-}
+} */
 
 .introducao p {
   color: #525252;
@@ -86,14 +85,26 @@
 }
 
 @media (max-width: 640px) {
+  .introducao-bkg {
+    background-color: var(--bkgEscuro);
+  }
   .introducao {
     grid-template-columns: 1fr;
     justify-items: center;
     gap: 0px;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #f7f7f7;
   }
   .introducao h1 {
     font-size: 2.5rem;
+  }
+  .introducao p {
+    color: #d1d1d1;
+  }
+  .introducao-bkg.light {
+    background-color: #272727;
+    transition: 0.5s;
   }
 }
 
