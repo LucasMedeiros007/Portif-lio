@@ -1,369 +1,384 @@
-.exp-bkg{
-    background-color: var(--bkgEscuro);
+.exp-bkg {
+  background-color: var(--bkgEscuro);
 }
-.experiencia{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto auto;
-    gap: 60px 100px;
-    padding: 25px 40px;
-    margin: 0px auto;
-    max-width: 1200px;
-    border-radius: 5px;
-    position: relative;
-    z-index: 0;
-}
-
-.obr{
-    color: #348f32;
-    text-decoration: none;
+.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
+  gap: 60px 100px;
+  padding: 25px 40px;
+  margin: 0px auto;
+  max-width: 1200px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 0;
 }
 
-.projeto{
-    color: #e21;
-    text-decoration: none;
+.obr {
+  color: #348f32;
+  text-decoration: none;
 }
 
-.html{
-    text-decoration: none;
-    color: #f7f7f7;
-    background-color: rgb(255, 132, 0);
-    padding: 0px 5px;
-    border-radius: 5px;
+.projeto {
+  color: #e21;
+  text-decoration: none;
 }
 
-.css{
-    text-decoration: none;
-    color: #f7f7f7;
-    background-color: rgb(0, 64, 255);
-    padding: 0px 5px;
-    border-radius: 5px;
+.html {
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: rgb(255, 132, 0);
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
-.uems{
-    text-decoration: none;
-    color: #f7f7f7;
-    background-color: #3b86ae;
-    padding: 0px 5px;
-    border-radius: 5px;
+.css {
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: rgb(0, 64, 255);
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
-.c{
-    text-decoration: none;
-    color: #f7f7f7;
-    background-color: rgb(89, 0, 255);
-    padding: 0px 5px;
-    border-radius: 5px;
+.uems {
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: #3b86ae;
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
-.sql{
-    text-decoration: none;
-    color: #f7f7f7;
-    background-color: rgb(0, 64, 255);
-    padding: 0px 5px;
-    border-radius: 5px;
+.c {
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: rgb(89, 0, 255);
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
-.java{
-    text-decoration: none;
-    color: #f7f7f7;
-    background-color: rgb(172, 0, 0);
-    padding: 0px 5px;
-    border-radius: 5px;
+.sql {
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: rgb(0, 64, 255);
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
-.canva{
-    text-decoration: none;
-    color: #f7f7f7;
-    background-color: rgb(118, 0, 221);
-    padding: 0px 5px;
-    border-radius: 5px;
+.java {
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: rgb(172, 0, 0);
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
-.photoshop{
-    text-decoration: none;
-    color: #f7f7f7;
-    background-color: rgb(0, 145, 255);
-    padding: 0px 5px;
-    border-radius: 5px;
+.canva {
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: rgb(118, 0, 221);
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
-.subtitulo2{
-    display: grid;
-    text-align: center;
-    align-items: center;
-    font-size: 3rem;
-    color: #d2d2d2;
+.photoshop {
+  text-decoration: none;
+  color: #f7f7f7;
+  background-color: rgb(0, 145, 255);
+  padding: 0px 5px;
+  border-radius: 5px;
 }
 
-.divCentro{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 10px;
-    position: relative;
+.subtitulo2 {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #d2d2d2;
 }
 
-.experiencia .subtitulo, .experiencia .subtitulo2{
-    text-align: left;
+.divCentro {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 10px;
+  position: relative;
 }
 
-.divCentro h3{
-    margin-top: 16px;
+.experiencia .subtitulo,
+.experiencia .subtitulo2 {
+  text-align: left;
 }
 
-hr{
-    grid-column: 1 / -1;
-    min-width: 800px;
-    max-width: 1000px;
+.divCentro h3 {
+  margin-top: 16px;
 }
 
-.divCentro::after{
-    position: absolute;
-    content: "";
+hr {
+  grid-column: 1 / -1;
+  min-width: 800px;
+  max-width: 1000px;
+}
+
+.divCentro::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  background-color: #d2d2d2;
+  bottom: -30px;
+}
+
+.div-a {
+  display: grid;
+  grid-template-columns: 2fr auto;
+  grid-template-rows: repeat(4, auto);
+  gap: 10px;
+  align-items: center;
+  background-color: #484848;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.desenvolvimento {
+  align-content: center;
+  font-size: 1.2rem;
+  height: 100%;
+  color: #521414;
+  background-color: #585858;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0px 5px;
+}
+.desenvolvimento::before {
+  content: "***";
+}
+.desenvolvimento::after {
+  content: "***";
+}
+
+.concluido {
+  height: 100%;
+  background-color: #585858;
+  border-radius: 5px;
+  color: #348f32;
+  text-align: center;
+  align-content: center;
+}
+
+.projetoMinecraft {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #d2d2d2;
+  background-color: #585858;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.oQueMinecraft {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #d2d2d2;
+  background-color: #585858;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.cliqueButtom {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #d2d2d2;
+  background-color: #585858;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.github {
+  color: rgb(0, 0, 204);
+  background-color: #d2d2d2;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.form {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #d2d2d2;
+  background-color: #585858;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.trabalho-texto {
+  color: #f7f7f7;
+  line-height: 2;
+}
+
+.origamid {
+  color: #f7f7f7;
+  background-color: rgb(105, 0, 105);
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.desenvFull {
+  background-color: #348f32;
+  color: #f7f7f7;
+  font-weight: 400;
+  padding: 4px 8px;
+  border-radius: 5px;
+}
+
+.trabalhos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  z-index: 0;
+}
+
+.trabalhos-icones {
+  position: relative;
+}
+
+.trabalhos-icones img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.trabalhos h3 {
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #bebebe;
+  padding: 4px 8px;
+  border-radius: 5px;
+  justify-self: start;
+  position: absolute;
+  bottom: 20px;
+  left: 12px;
+  z-index: 3;
+  pointer-events: none;
+}
+.trabalhos h3 a {
+  text-decoration: none;
+  color: #383838;
+}
+
+.link {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  z-index: 2;
+  content: "";
+  top: 0;
+  box-shadow: inset 0 -50px 130px rgba(0, 0, 0, 0.9);
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.link:hover {
+  box-shadow: inset 0 -50px 130px rgba(0, 0, 0, 0);
+}
+
+.exp-bkg.light {
+  background-color: #272727;
+  transition: 0.5s;
+}
+
+@media (max-width: 900px) {
+  .subtitulo,
+  .subtitulo2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .resumo {
+    border-top: 0px;
+  }
+  .experiencia {
+    grid-template-columns: auto;
+    padding: 30px 20px;
+    margin-top: 0;
+    gap: 15px;
+  }
+
+  .subtitulo,
+  .subtitulo2 {
     display: inline-block;
-    width: 100%;
-    height: 5px;
-    background-color: #d2d2d2;
-    bottom: -30px;
-}
+  }
 
-.div-a{
-    display: grid;
-    grid-template-columns: 2fr auto;
-    grid-template-rows: repeat(4, auto);
-    gap: 10px;
-    align-items: center;
-    background-color: #484848;
-    border-radius: 5px;
-    padding: 10px;
-    margin-right: 20px;
-}
+  .div-a {
+    margin-right: 0px;
+  }
 
-.desenvolvimento{
-    align-content: center;
-    font-size: 1.2rem;
-    height: 100%;
-    color: #521414;
-    background-color: #585858;
-    border-radius: 5px;
-    text-align: center;
-    padding: 0px 5px;
-}
-.desenvolvimento::before{
-    content: "***";
-}
-.desenvolvimento::after{
-    content: "***";
-}
+  .liGrid {
+    display: inline-block;
+  }
 
-.concluido{
-    height: 100%;
-    background-color: #585858;
-    border-radius: 5px;
-    color: #348f32;
-    text-align: center;
-    align-content: center;
-}
-
-.projetoMinecraft{
-    font-size: 1.9rem;
-    font-weight: bolder;
-    color: #d2d2d2;
-    background-color: #585858;
-    border-radius: 5px;
-    padding: 0px 5px;
-}
-
-.oQueMinecraft{
-    font-size: 1.9rem;
-    font-weight: bolder;
-    color: #d2d2d2;
-    background-color: #585858;
-    border-radius: 5px;
-    padding: 0px 5px;
-}
-
-.cliqueButtom{
-    font-size: 1.9rem;
-    font-weight: bolder;
-    color: #d2d2d2;
-    background-color: #585858;
-    border-radius: 5px;
-    padding: 0px 5px;
-}
-
-.github{
-    color: rgb(0, 0, 204);
-    background-color: #d2d2d2;
-    padding: 3px;
-    border-radius: 5px;
-}
-
-.form{
-    font-size: 1.9rem;
-    font-weight: bolder;
-    color: #d2d2d2;
-    background-color: #585858;
-    border-radius: 5px;
-    padding: 0px 5px;
-}
-
-.trabalho-texto{
-    color: #f7f7f7;
-    line-height: 2;
-}
-
-.origamid{
-    color: #f7f7f7;
-    background-color: rgb(105, 0, 105);
-    padding: 3px;
-    border-radius: 5px;
-}
-
-.desenvFull{
-    background-color: #348f32;
-    color: #f7f7f7;
-    font-weight: 400;
-    padding: 4px 8px;
-    border-radius: 5px;
-}
-
-.trabalhos{
+  .liGrid-colunas {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    z-index: 0;
+    row-gap: 10px;
+  }
+
+  .divCentro {
+    display: grid;
+  }
+
+  .h3Escuro {
+    width: fit-content;
+  }
+
+  .trabalhos {
+    display: grid;
+    margin: 0 auto;
+  }
+
+  .experiencia .subtitulo2 {
+    margin-top: 30px;
+  }
 }
 
-.trabalhos-icones{
-    position: relative;
+@media (max-width: 650px) {
+  .div-a {
+    grid-template-columns: auto auto;
+    max-width: fit-content;
+    margin: 0px auto;
+  }
 }
 
-.trabalhos-icones img{
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    position: relative;
-    z-index: 1;
-    border-radius: 5px;
+@media (max-width: 590px) {
+  .liGrid {
+    margin-bottom: 10px;
+  }
+
+  .liEscuro {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .projetoMinecraft,
+  .oQueMinecraft,
+  .cliqueButtom,
+  .form {
+    font-size: 1.5rem;
+  }
 }
 
-.trabalhos h3{
-    font-weight: 400;
-    font-size: 14px;
-    background-color: #bebebe;
-    padding: 4px 8px;
-    border-radius: 5px;
-    justify-self: start;
-    position: absolute;
-    bottom: 20px;
-    left: 12px;
-    z-index: 3;
-    pointer-events: none;
-}
-.trabalhos h3 a{
-    text-decoration: none;
-    color: #383838;
+@media (max-width: 530px) {
+  .experiencia .subtitulo,
+  .experiencia .subtitulo2 {
+    text-align: center;
+  }
 }
 
-.link{
-    position: absolute;
-    width: 200px;
-    height: 100%;
-    z-index: 2;
-    content: "";
-    top: 0;
-    box-shadow: inset 0 -50px 130px rgba(0,0,0,0.9);
-    transition: .3s;
-    border-radius: 4px;
-}
-
-.link:hover{
-    box-shadow: inset 0 -50px 130px rgba(0,0,0, 0);
-    
-}
-
-.exp-bkg.light{
-    background-color: #272727;
-    transition: .5s
-}
-
-@media (max-width:900px){
-    .subtitulo, .subtitulo2{
-        font-size: 2rem;
-    }
-}
-
-@media (max-width:820px){
-    .resumo{
-        border-top: 0px;
-
-    }
-    .experiencia{
-        grid-template-columns: auto;
-        padding: 30px 20px;
-        margin-top: 0;
-    }
-
-    .subtitulo, .subtitulo2{
-        display: inline-block;
-    }
-
-    .div-a{
-        margin-right: 0px;
-    }
-
-    .liGrid{
-        display: inline-block;
-    }
-
-    .liGrid-colunas{
-        display: flex;
-        flex-wrap: wrap;
-        row-gap: 10px;
-    }
-
-    .divCentro{
-        display: grid;
-    }
-
-    .h3Escuro{
-        width: fit-content;
-    }
-
-    .trabalhos{
-        display: grid;
-        margin: 0 auto;
-    }
-}
-
-@media (max-width:650px){
-    .div-a{
-        grid-template-columns: auto auto;
-        max-width: fit-content;
-        margin: 0px auto;
-    }
-}
-
-@media (max-width:590px){
-    .liGrid{
-        margin-bottom: 10px;
-    }
-
-    .liEscuro{
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
-
-    .projetoMinecraft, .oQueMinecraft, .cliqueButtom, .form{
-        font-size: 1.5rem;
-    }
-    
-}
-
-@media (max-width:515px){
-    .div-a{
-        grid-template-columns: auto;
-    }
+@media (max-width: 515px) {
+  .div-a {
+    grid-template-columns: auto;
+  }
 }
