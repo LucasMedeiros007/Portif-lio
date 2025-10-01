@@ -18,14 +18,3 @@ body.dark .introducao .ifms::before{
 body.dark .formacao .wizard{
     color: #226cb5;
 }
-
-@media (max-width:530px){
-    
-}
-
-@media (max-width:530px){
-    .subtitulo, .subtitulo2, .experiencia .subtitulo, .experiencia .subtitulo2, .resumo .subtituloResumo{
-        text-align: center;
-    }
-    
-}
