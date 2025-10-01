@@ -23,7 +23,7 @@
   margin-bottom: 10px;
 }
 
-/* .introducao h1::before {
+.introducao h1::before {
   content: "";
   width: 120px;
   height: 120px;
@@ -31,9 +31,9 @@
   position: absolute;
   background-image: url("../img/icone-introducao.png");
   z-index: -1;
-  top: -10px;
+  top: -40px;
   left: -10px;
-} */
+}
 
 .introducao p {
   color: #525252;
@@ -70,12 +70,8 @@
   }
 
   .introducao h1::before {
-    max-width: 200%;
-    width: 32px;
-    height: 32px;
     top: -25px;
-    left: -3px;
-    background-image: url("../img/icone-introducao-menorsinho.png");
+    background-image: url("../img/icone-introducao-menorsinho.png") no-repeat;
   }
 
   .introducao img {
@@ -98,6 +94,7 @@
   }
   .introducao h1 {
     font-size: 2.5rem;
+    position: relative;
   }
   .introducao p {
     color: #d1d1d1;
@@ -105,6 +102,17 @@
   .introducao-bkg.light {
     background-color: #272727;
     transition: 0.5s;
+  }
+
+  .introducao h1::before {
+    top: 16px;
+    background-image: url("../img/icone-introducao-menorsinho.png");
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 60px;
+    left: 0px;
+    z-index: 2;
+    position: absolute;
   }
 }
 
