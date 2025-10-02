@@ -235,6 +235,7 @@ hr {
   flex-wrap: wrap;
   gap: 20px;
   z-index: 0;
+  /* width: fit-content; */
 }
 
 .trabalhos-icones {
@@ -334,10 +335,10 @@ hr {
     width: fit-content;
   }
 
-  .trabalhos {
+  /* .trabalhos {
     display: grid;
     margin: 0 auto;
-  }
+  } */
 
   .experiencia .subtitulo2 {
     margin-top: 30px;

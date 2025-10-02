@@ -1,0 +1,37 @@
+@media (max-width: 820px) {
+  .trabalhos {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    cursor: grab;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+  }
+  .trabalhos.active {
+    cursor: grabbing;
+  }
+  .trabalhos-icones {
+    user-select: none;
+    min-width: 220px; /* garante que cada item tenha largura mínima */
+  }
+
+  .trabalhos::-webkit-scrollbar {
+  height: 6px;           /* deixa mais fina */
+  background: transparent; /* fundo transparente */
+}
+
+.trabalhos::-webkit-scrollbar-thumb {
+  background: #131313;      /* barra preta */
+  border-radius: 3px;
+}
+
+/* Firefox */
+.trabalhos {
+  scrollbar-color: #131313 transparent;
+  scrollbar-width: thin;
+}
+}
