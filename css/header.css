@@ -167,7 +167,7 @@ body.dark {
 
 @media (max-width: 374px) {
   .header h1 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -182,6 +182,9 @@ body.dark {
 }
 
 @media (max-width: 330px) {
+  .header h1 {
+    font-size: 1.56rem;
+  }
   .header-menu {
     gap: 5px;
   }
@@ -200,6 +203,12 @@ body.dark {
   .header-menu a {
     padding: 5px 8px;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .header h1 {
+    font-size: 1.5rem;
   }
 }
 
