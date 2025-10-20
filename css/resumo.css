@@ -85,6 +85,12 @@
   }
 }
 
+@media (max-width: 897px) {
+  .resumo .subtituloResumo {
+    padding-left: 20px;
+  }
+}
+
 @media (max-width: 800px) {
   .resumo-texto {
     font-size: 1rem;
@@ -121,5 +127,12 @@
   }
   .subtituloResumo {
     margin-bottom: 10px;
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 530px) {
+  .resumo .subtituloResumo {
+    padding-left: 0px;
   }
 }
