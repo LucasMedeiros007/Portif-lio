@@ -6,14 +6,20 @@
   border-radius: 5px;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto auto;
   padding: 25px 0px;
   margin: 0px auto;
   max-width: 1200px;
   gap: 100px;
+  row-gap: 40px;
 }
 
 .liGrid {
   display: grid;
+}
+
+.contato-informacoes{
+  align-self: center;
 }
 
 .contato-bkg.light {
@@ -33,7 +39,7 @@
 
 @media (max-width: 820px) {
   .contato {
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     gap: 25px;
     padding-right: 15px;
     padding-left: 15px;
