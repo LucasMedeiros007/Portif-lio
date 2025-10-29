@@ -75,3 +75,41 @@
 .formulario-botao.limpar{
   background-color: #ff1e00;
 }
+
+@media (max-width: 820px) {
+  .formulario {
+    grid-template-columns: 1fr; /* apenas uma coluna */
+    grid-template-areas:
+      "label-nome"
+      "input-nome"
+      "label-email"
+      "input-email"
+      "label-msg"
+      "textarea-msg"
+      "btn-send btn-reset"; /* linha com dois botões lado a lado */
+  }
+
+  /* Forçar os botões a ficarem lado a lado */
+  .formulario input.formulario-botao[type="submit"],
+  .formulario input[type="reset"] {
+    justify-self: stretch;
+    width: 100%;
+  }
+
+  /* Ajuste específico para alinhar os dois botões na mesma linha */
+  .formulario {
+    grid-template-columns: 1fr 1fr; /* 2 colunas só na linha dos botões */
+    grid-template-areas:
+      "label-nome label-nome"
+      "input-nome input-nome"
+      "label-email label-email"
+      "input-email input-email"
+      "label-msg label-msg"
+      "textarea-msg textarea-msg"
+      "btn-send btn-reset";
+  }
+
+  .formulario label:nth-of-type(2) {
+    margin-top: 20px;
+  }
+}
